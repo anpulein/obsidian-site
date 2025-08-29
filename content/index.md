@@ -1,2 +1,1 @@
-Тестовая заметка 1
-[[Commands/Git|Git]]
+[[Architecture/DDD/MediatR Pattern|MediatR Pattern]]
