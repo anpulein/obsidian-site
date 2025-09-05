@@ -4,7 +4,7 @@ aliases:
   - 🗺️ Context Map
 linter-yaml-title-alias: 🗺️ Context Map
 date created: Friday, September 5th 2025, 6:26:24 am
-date modified: Friday, September 5th 2025, 6:36:28 am
+date modified: Friday, September 5th 2025, 10:27:36 am
 tags:
   - type
   - type/permanent
@@ -46,7 +46,7 @@ tags:
 
 ## 🔍 Определение и назначение
 
-> [!info] 📖 Context Map (Карта контекстов) **Context Map** — это визуальное представление всех [[DDD#ddd/bounded-context|Bounded Context]] в системе и отношений между ними. Это стратегический инструмент DDD для понимания архитектуры и планирования интеграций.
+> [!info] 📖 Context Map (Карта контекстов) **Context Map** — это визуальное представление всех [[DDD/Bounded Context|Bounded Context]] в системе и отношений между ними. Это стратегический инструмент DDD для понимания архитектуры и планирования интеграций.
 
 ### 🎯 Основные цели
 
@@ -145,7 +145,7 @@ graph TD
 
 > [!example] 🛠️ Алгоритм создания
 > 
-> 1. **Идентифицировать контексты** - найти все [[DDD#ddd/bounded-context|Bounded Contexts]]
+> 1. **Идентифицировать контексты** - найти все [[DDD/MOC - Bounded Context|Bounded Contexts]]
 > 2. **Определить отношения** - выявить как контексты взаимодействуют
 > 3. **Выбрать паттерны** - подобрать подходящие паттерны интеграции
 > 4. **Визуализировать** - создать диаграмму отношений
@@ -216,7 +216,7 @@ graph TD
 ## 🔗 Связанные концепции
 
 - [[DDD]] - основы Domain-Driven Design
-- [[MOC - Bounded Context|Bounded Context]] - границы контекстов
+- [[DDD/MOC - Bounded Context|Bounded Context]] - границы контекстов
 - [[DDD - Anti-Corruption Layer]] - детали паттерна ACL
 - [[Микросервисная архитектура#concept/microservice]] - применение в микросервисах
 

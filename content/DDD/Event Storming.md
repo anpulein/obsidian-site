@@ -4,7 +4,7 @@ aliases:
   - 🎯  Event Storming
 linter-yaml-title-alias: 🎯  Event Storming
 date created: Friday, September 5th 2025, 6:47:27 am
-date modified: Friday, September 5th 2025, 6:53:20 am
+date modified: Friday, September 5th 2025, 10:31:10 am
 tags:
   - type/permanent
   - concept/ddd
@@ -55,8 +55,8 @@ tags:
 ### Основные цели:
 
 - 🔍 **Исследование домена** — глубокое понимание бизнес-процессов
-- 🤝 **Создание общего языка** — [[DDD#ddd/ubiquitous-language|Ubiquitous Language]]
-- 🗺️ **Выявление границ** — определение [[DDD#ddd/bounded-context|Bounded Contexts]]
+- 🤝 **Создание общего языка** — [[DDD/Ubiquitous Lnguage|Ubiquitous Language]]
+- 🗺️ **Выявление границ** — определение [[DDD/Bounded Context|Bounded Contexts]]
 - ⚡ **Быстрое моделирование** — за несколько часов вместо недель
 - 🧠 **Знания экспертов** — извлечение скрытых знаний предметной области
 
@@ -196,7 +196,7 @@ tags:
 ### Основные артефакты:
 
 1. **📸 Event Flow** — последовательность событий бизнес-процесса
-2. **🗺️ Context Map** — карта [[DDD#ddd/bounded-context|Bounded Contexts]]
+2. **🗺️ Context Map** — карта [[DDD/MOC - Bounded Context|Bounded Context]]
 3. **📝 Ubiquitous Language** — словарь терминов домена
 4. **⚠️ Pain Points** — список проблем и рисков
 5. **🎯 Hot Spots** — места для приоритетной проработки
@@ -264,11 +264,11 @@ tags:
 
 > [!links] Ссылки на связанные заметки
 
-- [[DDD#ddd/bounded-context|🏗️ Bounded Context]] — границы контекстов
-- [[DDD#ddd/ubiquitous-language|🗣️ Ubiquitous Language]] — общий язык
-- [[DDD#ddd/aggregate|📦 Aggregates]] — агрегаты предметной области
-- [[DDD#ddd/context-map|🗺️ Context Map]] — карта взаимодействий контекстов
-- [[DDD#ddd/strategic-design|🎯 Strategic Design]] — стратегическое проектирование
+- [[DDD/MOC - Bounded Context|🏗️ Bounded Context]] — границы контекстов
+- [[DDD/Ubiquitous Language|🗣️ Ubiquitous Language]] — общий язык
+- [[DDD/Aggregate|📦 Aggregates]] — агрегаты предметной области
+- [[DDD/Context Map|🗺️ Context Map]] — карта взаимодействий контекстов
+- [[DDD/Strategic Design|🎯 Strategic Design]] — стратегическое проектирование
 
 ### Развитие темы:
 

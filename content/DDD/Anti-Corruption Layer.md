@@ -11,7 +11,7 @@ aliases:
   - 🛡️ Anti-Corruption Layer
 linter-yaml-title-alias: 🛡️ Anti-Corruption Layer
 date created: Friday, September 5th 2025, 6:53:20 am
-date modified: Friday, September 5th 2025, 7:16:31 am
+date modified: Friday, September 5th 2025, 10:27:35 am
 ---
 ## 🏷️ Tags
 
@@ -65,7 +65,7 @@ date modified: Friday, September 5th 2025, 7:16:31 am
 > ### 1. Модельное загрязнение
 > 
 > - Внешние структуры данных "протекают" в домен
-> - Нарушение принципов [[DDD#ddd/ubiquitous-language|Ubiquitous Language]]
+> - Нарушение принципов [[DDD/Ubiquitous Language|Ubiquitous Language]]
 > 
 > ### 2. Тесная связанность
 > 
@@ -270,6 +270,6 @@ graph LR
 ## 🔗 См. также
 
 - [[DDD]] - основные концепции Domain-Driven Design
-- [[MOC - Bounded Context |Bounded Context]] - контекст, который защищает ACL
-- [[Context Map]] - отображение отношений между контекстами
+- [[DDD/MOC - Bounded Context |Bounded Context]] - контекст, который защищает ACL
+- [[DDD/Context Map|Context Map]] - отображение отношений между контекстами
 - [[DDD - Integration Patterns]] - паттерны интеграции в DDD

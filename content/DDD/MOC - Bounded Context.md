@@ -4,7 +4,7 @@ aliases:
   - MOC - Bounded Context
 linter-yaml-title-alias: MOC - Bounded Context
 date created: Friday, September 5th 2025, 6:20:28 am
-date modified: Friday, September 5th 2025, 6:53:44 am
+date modified: Friday, September 5th 2025, 10:24:40 am
 tags:
   - type/moc
   - concept/ddd
@@ -116,7 +116,7 @@ graph TB
 
 > [!info] 📋 Context Map Стратегическая карта, показывающая все Bounded Contexts и отношения между ними.
 > 
-> **Подробнее**: [[Context Map | Context Map]]
+> **Подробнее**: [[DDD/Context Map | Context Map]]
 
 **Зачем нужна Context Map:**
 
@@ -131,7 +131,7 @@ graph TB
 
 > [!note] 🔗 Основные паттерны отношений
 > 
-> **Подробнее**: [[MOC - Context Relations | Context Relations]] 
+> **Подробнее**: [[DDD/MOC - Context Relations | Context Relations]] 
 
 ### Partnership 🤝
 
@@ -248,7 +248,7 @@ graph TB
 
 ### 1. **Анализ предметной области** 🔍
 
-- Проведите [[Event Storming]] 
+- Проведите [[DDD/Event Storming|Event Storming]] 
 - Найдите ключевые бизнес-процессы
 - Выявите разные значения одинаковых терминов
 
@@ -372,11 +372,11 @@ graph TB
 
 ### Следующие шаги для изучения:
 
-- [[Context Map]] — стратегическое планирование
-- [[MOC - Context Relations |Context Relations]] — типы отношений детально
+- [[DDD/Context Map|Context Map]] — стратегическое планирование
+- [[DDD/MOC - Context Relations |Context Relations]] — типы отношений детально
 - [[DDD - Anti-Corruption Layer]] — защита от внешних систем
 - [[DDD - Shared Kernel]] — управление общим кодом
-- [[Event Storming]] — техника выявления контекстов
+- [[DDD/Event Storming|Event Storming]] — техника выявления контекстов
 - [[DDD - Ubiquitous Language]] — единый язык команды
 
 ### Паттерны архитектуры:

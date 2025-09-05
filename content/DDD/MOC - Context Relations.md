@@ -4,7 +4,7 @@ aliases:
   - 🔗  Context Relations
 linter-yaml-title-alias: 🔗  Context Relations
 date created: Friday, September 5th 2025, 6:38:48 am
-date modified: Friday, September 5th 2025, 6:47:27 am
+date modified: Friday, September 5th 2025, 10:24:36 am
 tags:
   - type/moc
   - area/architecture
@@ -66,7 +66,7 @@ tags:
 
 ### 📊 Документирование и управление
 
-- [[Context Map|Context Map]] — создание карты контекстов
+- [[DDD/Context Map|Context Map]] — создание карты контекстов
 - [[DDD Context Relations - Evolution|Эволюция отношений]] — изменение паттернов со временем
 
 ---
@@ -123,9 +123,9 @@ graph TB
 
 ## 🔗 Связанные концепции
 
-- [[MOC - Bounded Context | Bounded Context]] — основа для Context Relations
+- [[DDD/MOC - Bounded Context |Bounded Context]] — основа для Context Relations
 - [[DDD - Ubiquitous Language]] — влияет на выбор паттернов интеграции
-- [[Event Storming]] — помогает выявить границы контекстов
+- [[DDD/Event Storming|Event Storming]] — помогает выявить границы контекстов
 - [[Microservices Architecture]] — практическая реализация Context Relations
 - [[API Gateway Pattern]] — техническая реализация Open Host Service
 
