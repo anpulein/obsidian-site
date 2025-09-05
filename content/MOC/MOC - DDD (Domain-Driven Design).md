@@ -4,7 +4,7 @@ aliases:
   - 🏗️ DDD - Domain-Driven Design
 linter-yaml-title-alias: 🏗️ DDD - Domain-Driven Design
 date created: Friday, August 29th 2025, 12:43:21 pm
-date modified: Friday, September 5th 2025, 6:30:49 am
+date modified: Friday, September 5th 2025, 7:32:01 am
 tags:
   - type/moc
   - area/architecture
@@ -75,13 +75,13 @@ tags:
 
 > [!note] 📋 Стратегические паттерны Определяют границы и взаимодействие между различными частями системы
 
-#### [[DDD Bounded Context|🔲 Bounded Context]]
+#### [[MOC - Bounded Context|Bounded Context]]
 
 - Явные границы модели домена
 - Контекст, в котором модель имеет конкретное значение
 - Основа для разделения больших систем
 
-#### [[DDD Context Map|🗺️ Context Map]]
+#### [[Context Map|🗺️ Context Map]]
 
 - Карта взаимосвязей между Bounded Context'ами
 - Паттерны интеграции (Shared Kernel, ACL, Open Host Service)
