@@ -4,7 +4,7 @@ aliases:
   - 🏗️ DDD - Domain-Driven Design
 linter-yaml-title-alias: 🏗️ DDD - Domain-Driven Design
 date created: Friday, August 29th 2025, 12:43:21 pm
-date modified: Friday, September 5th 2025, 7:32:01 am
+date modified: Friday, September 5th 2025, 10:20:13 am
 tags:
   - type/moc
   - area/architecture
@@ -75,19 +75,19 @@ tags:
 
 > [!note] 📋 Стратегические паттерны Определяют границы и взаимодействие между различными частями системы
 
-#### [[MOC - Bounded Context|Bounded Context]]
+#### [[DDD/MOC - Bounded Context|Bounded Context]]
 
 - Явные границы модели домена
 - Контекст, в котором модель имеет конкретное значение
 - Основа для разделения больших систем
 
-#### [[Context Map|🗺️ Context Map]]
+#### [[DDD/Context Map|🗺️ Context Map]]
 
 - Карта взаимосвязей между Bounded Context'ами
 - Паттерны интеграции (Shared Kernel, ACL, Open Host Service)
 - Стратегия развития системы
 
-#### [[DDD Subdomain Types|🏢 Типы поддоменов]]
+#### [[DDD/Subdomain Types|🏢 Subdomain Types]]
 
 |Тип|Описание|Стратегия|
 |---|---|---|
@@ -103,7 +103,7 @@ tags:
 
 > [!example] 🧱 Building Blocks Тактические паттерны для реализации модели домена в коде
 
-#### [[DDD Entity|🆔 Entity (Сущность)]]
+#### [[DDD/Entity|🆔 Entity (Сущность)]]
 
 ```
 ✅ Имеет уникальную идентичность
@@ -111,7 +111,7 @@ tags:
 ✅ Жизненный цикл
 ```
 
-#### [[DDD Value Object|💎 Value Object (Объект-значение)]]
+#### [[DDD/Value Object|💎 Value Object (Объект-значение)]]
 
 ```
 ✅ Неизменяемый
@@ -119,7 +119,7 @@ tags:
 ✅ Без идентичности
 ```
 
-#### [[DDD Aggregate|📦 Aggregate (Агрегат)]]
+#### [[DDD/Aggregate|📦 Aggregate (Агрегат)]]
 
 ```
 ✅ Граница консистентности
