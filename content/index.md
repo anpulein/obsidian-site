@@ -1,1 +1,0 @@
-[[Architecture/DDD/MediatR Pattern|MediatR Pattern]]
