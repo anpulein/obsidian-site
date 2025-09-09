@@ -1,24 +1,27 @@
 ---
-title: 🏗️ DDD - Domain-Driven Design
 aliases:
-  - 🏗️ DDD - Domain-Driven Design
-linter-yaml-title-alias: 🏗️ DDD - Domain-Driven Design
-date created: Friday, August 29th 2025, 12:43:21 pm
-date modified: Friday, September 5th 2025, 10:20:13 am
+  - MOC - DDD (Domain-Driven Design)
+  - MOC - DDD
+  - DDD
 tags:
   - type/moc
+  - status/active
   - area/architecture
   - area/development
-  - status/active
   - concept/ddd
+title: MOC - DDD (Domain-Driven Design)
+linter-yaml-title-alias: MOC - DDD (Domain-Driven Design)
+date created: Monday, September 8th 2025, 1:46:40 pm
+date modified: Tuesday, September 9th 2025, 5:01:46 am
 ---
+
 ## 🏷️ Tags
 
-#type/moc #area/architecture #area/development #concept/ddd #status/active 
+#type/moc #status/active #area/architecture #area/development #concept/ddd 
 
 ---
 
-# 🏗️ DDD - Domain-Driven Design
+# MOC - DDD (Domain-Driven Design)
 
 > [!info] 📋 О концепции Методология разработки программного обеспечения, которая ставит в центр внимания предметную область (домен) и её логику, а не технические детали реализации.
 
@@ -75,19 +78,19 @@ tags:
 
 > [!note] 📋 Стратегические паттерны Определяют границы и взаимодействие между различными частями системы
 
-#### [[DDD/MOC - Bounded Context|Bounded Context]]
+#### [[MOC - DDD - Bounded Context|Bounded Context]]
 
 - Явные границы модели домена
 - Контекст, в котором модель имеет конкретное значение
 - Основа для разделения больших систем
 
-#### [[DDD/Context Map|🗺️ Context Map]]
+#### [[DDD.Context Map|Context Map]]
 
 - Карта взаимосвязей между Bounded Context'ами
 - Паттерны интеграции (Shared Kernel, ACL, Open Host Service)
 - Стратегия развития системы
 
-#### [[DDD/Subdomain Types|🏢 Subdomain Types]]
+#### [[DDD.SubdomainTypes|Subdomain Types]]
 
 |Тип|Описание|Стратегия|
 |---|---|---|
@@ -103,7 +106,7 @@ tags:
 
 > [!example] 🧱 Building Blocks Тактические паттерны для реализации модели домена в коде
 
-#### [[DDD/Entity|🆔 Entity (Сущность)]]
+#### [[DDD.Entity|🆔 Entity (Сущность)]]
 
 ```
 ✅ Имеет уникальную идентичность
@@ -111,7 +114,7 @@ tags:
 ✅ Жизненный цикл
 ```
 
-#### [[DDD/Value Object|💎 Value Object (Объект-значение)]]
+#### [[DDD.ValueObject|💎 Value Object (Объект-значение)]]
 
 ```
 ✅ Неизменяемый
@@ -119,7 +122,7 @@ tags:
 ✅ Без идентичности
 ```
 
-#### [[DDD/Aggregate|📦 Aggregate (Агрегат)]]
+#### [[DDD.Aggregate|📦 Aggregate (Агрегат)]]
 
 ```
 ✅ Граница консистентности
@@ -127,7 +130,7 @@ tags:
 ✅ Инвариант внутри границ
 ```
 
-#### [[DDD Domain Service|🔧 Domain Service]]
+#### [[DDD.Domain Service|🔧 Domain Service]]
 
 ```
 ✅ Бизнес-операции между сущностями
@@ -135,7 +138,7 @@ tags:
 ✅ Выражает концепции домена
 ```
 
-#### [[DDD Repository|📚 Repository]]
+#### [[DDD.Repository|📚 Repository]]
 
 ```
 ✅ Абстракция доступа к данным
@@ -215,16 +218,16 @@ graph TD
 
 ### Архитектурные паттерны
 
-- [[Clean Architecture]] — дополняет DDD принципами чистой архитектуры
-- [[CQRS]] — разделение команд и запросов
-- [[Event Sourcing]] — хранение событий вместо состояния
-- [[Hexagonal Architecture]] — изоляция домена от внешних зависимостей
+- [[MOC - Clean Architcture|Clean Architecture]] — дополняет DDD принципами чистой архитектуры
+- [[MOC - ArchPat - CQRS|CQRS]] — разделение команд и запросов
+- [[ArchPat.EventSourcing|ArchPat.Event Sourcing]] — хранение событий вместо состояния
+- [[MOC - ArchPat - Hexagonal|Hexagonal Architecture]] — изоляция домена от внешних зависимостей
 
 ### Методологии
 
-- [[Event-Driven Architecture]] — архитектура на основе событий
-- [[Microservices]] — каждый сервис = Bounded Context
-- [[API Design]] — проектирование API согласно доменной модели
+- [[Arch.Event-Driven]] — архитектура на основе событий
+- [[MOC - Microservices|Microservices]] — каждый сервис = Bounded Context
+- [[MOC - API Design|API Design]] — проектирование API согласно доменной модели
 
 ---
 
@@ -238,9 +241,9 @@ graph TD
 
 ### Практические ресурсы
 
-- [[DDD Sample Applications]] — примеры реализации
-- [[DDD Patterns Cheatsheet]] — шпаргалка по паттернам
-- [[DDD Anti-Patterns]] — что не стоит делать
+- [[MOC - DDD - Sample Applications|Sample Applications]] — примеры реализации
+- [[MOC - DDD - Patterns Cheatsheet|Patterns Cheatsheet]] — шпаргалка по паттернам
+- [[MOC - DDD - Anti-Patterns|Anti-Patterns]] — что не стоит делать
 
 ---
 

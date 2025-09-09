@@ -1,10 +1,11 @@
 ---
-title: 🎯 Subdomain Types
+title: DDD.Subdomain Types
 aliases:
-  - 🎯 Subdomain Types
-linter-yaml-title-alias: 🎯 Subdomain Types
+  - DDD.Subdomain Types
+  - Subdomain Types
+linter-yaml-title-alias: DDD.Subdomain Types
 date created: Friday, September 5th 2025, 10:00:56 am
-date modified: Friday, September 5th 2025, 10:31:22 am
+date modified: Tuesday, September 9th 2025, 5:10:22 am
 tags:
   - type/permanent
   - concept/ddd
@@ -18,7 +19,8 @@ tags:
 #type/permanent #concept/ddd #ddd/subdomain #ddd/strategic-design #ddd/bounded-context #area/architecture  
 
 ---
-# 🎯 Subdomain Types
+
+# DDD.Subdomain Types
 
 > [!info] 📋 О заметке Классификация поддоменов в Domain-Driven Design для принятия стратегических архитектурных решений
 
@@ -175,9 +177,9 @@ tags:
 **Связанные концепции:**
 
 - [[DDD]] - основная методология
-- [[DDD/MOC - Bounded Context |Bounded Context]] - техническая реализация поддоменов
+- [[MOC - DDD - Bounded Context|Bounded Context]] - техническая реализация поддоменов
 - [[ddd/strategic-design]] - стратегическое планирование
-- [[DDD/Context Map|Context Map]] - визуализация отношений
+- [[DDD.Context Map|DDD - Context Map]] - визуализация отношений
 - [[concept/microservice]] - архитектурная реализация
 
 **Практическое применение:**

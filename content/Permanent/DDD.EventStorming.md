@@ -1,10 +1,11 @@
 ---
-title: 🎯  Event Storming
+title: DDD.Event Storming
 aliases:
-  - 🎯  Event Storming
-linter-yaml-title-alias: 🎯  Event Storming
+  - DDD.Event Storming
+  - Event Storming
+linter-yaml-title-alias: DDD.Event Storming
 date created: Friday, September 5th 2025, 6:47:27 am
-date modified: Friday, September 5th 2025, 10:31:10 am
+date modified: Tuesday, September 9th 2025, 5:10:24 am
 tags:
   - type/permanent
   - concept/ddd
@@ -20,7 +21,7 @@ tags:
 #type/permanent #concept/ddd #ddd/event-storming #ddd/strategic-design #ddd/bounded-context #ddd/ubiquitous-language #area/architecture #status/active 
 
 ---
-# 🎯  Event Storming
+# DDD.Event Storming
 
 > [!info] 📋 Краткий чек-лист
 > 
@@ -196,7 +197,7 @@ tags:
 ### Основные артефакты:
 
 1. **📸 Event Flow** — последовательность событий бизнес-процесса
-2. **🗺️ Context Map** — карта [[DDD/MOC - Bounded Context|Bounded Context]]
+2. **🗺️ Context Map** — карта [[MOC - DDD - Bounded Context|Bounded Context]]
 3. **📝 Ubiquitous Language** — словарь терминов домена
 4. **⚠️ Pain Points** — список проблем и рисков
 5. **🎯 Hot Spots** — места для приоритетной проработки
@@ -264,10 +265,10 @@ tags:
 
 > [!links] Ссылки на связанные заметки
 
-- [[DDD/MOC - Bounded Context|🏗️ Bounded Context]] — границы контекстов
+- [[MOC - DDD - Bounded Context|🏗️ Bounded Context]] — границы контекстов
 - [[DDD/Ubiquitous Language|🗣️ Ubiquitous Language]] — общий язык
-- [[DDD/Aggregate|📦 Aggregates]] — агрегаты предметной области
-- [[DDD/Context Map|🗺️ Context Map]] — карта взаимодействий контекстов
+- [[DDD.Aggregate|📦 Aggregates]] — агрегаты предметной области
+- [[DDD.Context Map|🗺️ Context Map]] — карта взаимодействий контекстов
 - [[DDD/Strategic Design|🎯 Strategic Design]] — стратегическое проектирование
 
 ### Развитие темы:

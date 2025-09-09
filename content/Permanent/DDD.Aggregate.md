@@ -1,10 +1,11 @@
 ---
-title: 🏗️ Aggregate
+title: DDD.Aggregate
 aliases:
-  - 🏗️ Aggregate
-linter-yaml-title-alias: 🏗️ Aggregate
+  - DDD.Aggregate
+  - Aggregate
+linter-yaml-title-alias: DDD.Aggregate
 date created: Friday, September 5th 2025, 10:07:51 am
-date modified: Friday, September 5th 2025, 10:25:09 am
+date modified: Monday, September 8th 2025, 2:30:19 pm
 tags:
   - type/permanent
   - concept/ddd
@@ -15,13 +16,15 @@ tags:
   - design-pattern/factory
   - concept/immutability
   - ddd/aggregate
+  - status/active
 ---
 ## 🏷️ Tags
 
-#type/permanent #concept/ddd #ddd/aggregate #ddd/entity #ddd/value-object #area/architecture #area/development #design-pattern/factory  #concept/immutability 
+#type/permanent #concept/ddd #ddd/aggregate #ddd/entity #ddd/value-object #area/architecture #area/development #design-pattern/factory  #concept/immutability #status/active 
 
 ---
-# 🏗️ Aggregate
+
+# DDD.Aggregate
 
 > [!info] 📋 Краткий чек-лист
 > 
@@ -80,7 +83,7 @@ tags:
 
 ## 🏛️ Aggregate Root
 
-**Aggregate Root** — это [[DDD/Entity|Entity]], которая служит единственной точкой входа в агрегат.
+**Aggregate Root** — это [[DDD.Entity|DDD - Entity]], которая служит единственной точкой входа в агрегат.
 
 ### 🎯 Обязанности Root'а
 
@@ -236,17 +239,17 @@ public class Order
 
 ### 📚 См. также
 
-- [[DDD/Entity|Entity]] — основные строительные блоки агрегата
-- [[DDD/Value Object|Value Object]] — неизменяемые компоненты агрегата
+- [[DDD.Entity|DDD - Entity]] — основные строительные блоки агрегата
+- [[DDD.ValueObject|DDD - Value Object]] — неизменяемые компоненты агрегата
 - [[domain-service|Domain Service]] — операции, не принадлежащие агрегату
-- [[DDD/MOC - Bounded Context|Bounded Context]] — контекст, в котором существуют агрегаты
+- [[MOC - DDD - Bounded Context|Bounded Context]] — контекст, в котором существуют агрегаты
 - [[DDD/Domain Events|Domain Events]] — механизм связи между агрегатами
 
 ### 🏗️ Паттерны
 
 - [[Repository Pattern]] — доступ к агрегатам
 - [[Unit of Work]] — управление транзакциями
-- [[Event Sourcing]] — альтернативный способ персистентности
+- [[ArchPat.EventSourcing]] — альтернативный способ персистентности
 
 ---
 

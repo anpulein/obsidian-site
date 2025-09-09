@@ -1,10 +1,11 @@
 ---
-title: 🏛️  Entity (Сущность)
+title: DDD.Entity
 aliases:
-  - 🏛️  Entity (Сущность)
-linter-yaml-title-alias: 🏛️  Entity (Сущность)
+  - DDD.Entity
+  - Entity
+linter-yaml-title-alias: DDD.Entity
 date created: Friday, September 5th 2025, 10:07:51 am
-date modified: Friday, September 5th 2025, 10:29:05 am
+date modified: Monday, September 8th 2025, 2:30:28 pm
 tags:
   - type/permanent
   - concept/ddd
@@ -18,7 +19,7 @@ tags:
 
 ---
 
-# 🏛️  Entity (Сущность)
+# DDD.Entity
 
 > [!abstract] 📋 Краткое описание Entity — это объект предметной области, который имеет уникальную идентичность и жизненный цикл. В отличие от Value Object, Entity важна не только своими атрибутами, но и своей идентичностью.
 
@@ -66,7 +67,7 @@ tags:
 > [!note] 🔍 Ключевое различие **Entity**: "Кто это?" (идентичность важнее атрибутов)  
 > **Value Object**: "Что это?" (важны только атрибуты)
 
-| Критерий         | Entity               | [[DDD/Value Object\|Value Object]] |
+| Критерий         | Entity               | [[DDD.ValueObject\|Value Object]] |
 | ---------------- | -------------------- | ---------------------------------- |
 | **Идентичность** | ✅ Есть уникальный ID | ❌ Нет ID                           |
 | **Изменяемость** | ✅ Может изменяться   | ❌ Неизменяемый                     |
@@ -286,10 +287,10 @@ graph TD
 
 | Концепция                              | Связь с Entity                      | Пример                                      |
 | -------------------------------------- | ----------------------------------- | ------------------------------------------- |
-| **[[DDD/Aggregate\|Aggregate]]**       | Entity может быть корнем агрегата   | `Order` — корень, `OrderItem` — часть       |
-| **[[Repository]]**                     | Репозиторий работает с Entity по ID | `UserRepository.GetById(userId)`            |
-| **[[Domain Service]]**                 | Сервис координирует работу Entity   | `OrderService.Transfer(order, newCustomer)` |
-| **[[DDD/Value Object\|Value Object]]** | Entity содержит Value Objects       | `User.Address`, `Order.TotalAmount`         |
+| **[[DDD.Aggregate\|Aggregate]]**       | Entity может быть корнем агрегата   | `Order` — корень, `OrderItem` — часть       |
+| **[[DDD.Repository]]**                     | Репозиторий работает с Entity по ID | `UserRepository.GetById(userId)`            |
+| **[[DDD.Domain Service]]**                 | Сервис координирует работу Entity   | `OrderService.Transfer(order, newCustomer)` |
+| **[[DDD.ValueObject\|Value Object]]** | Entity содержит Value Objects       | `User.Address`, `Order.TotalAmount`         |
 |                                        |                                     |                                             |
 
 ---
@@ -329,8 +330,8 @@ graph TD
 ## 🔍 См. также
 
 - [[DDD]] — основные концепции Domain-Driven Design
-- [[DDD/Value Object|Value Object]] — объекты без идентичности
-- [[DDD/Aggregate|Aggregate]] — группировка связанных Entity
+- [[DDD.ValueObject|DDD - Value Object]] — объекты без идентичности
+- [[DDD.Aggregate|DDD - Aggregate]] — группировка связанных Entity
 - [[ddd/domain-service|Domain Service]] — координация между Entity
 - [[concept/repository|Repository Pattern]] — доступ к Entity
 - [[design-pattern/factory|Factory Pattern]] — создание Entity

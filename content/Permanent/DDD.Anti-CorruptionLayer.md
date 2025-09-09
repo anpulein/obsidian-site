@@ -6,19 +6,20 @@ tags:
   - ddd/bounded-context
   - area/architecture
   - status/active
-title: 🛡️ Anti-Corruption Layer
+title: DDD.Anti-Corruption Layer
 aliases:
-  - 🛡️ Anti-Corruption Layer
-linter-yaml-title-alias: 🛡️ Anti-Corruption Layer
+  - DDD.Anti-Corruption Layer
+  - Anti-Corruption Layer
+linter-yaml-title-alias: DDD.Anti-Corruption Layer
 date created: Friday, September 5th 2025, 6:53:20 am
-date modified: Friday, September 5th 2025, 10:27:35 am
+date modified: Tuesday, September 9th 2025, 5:10:29 am
 ---
 ## 🏷️ Tags
 
 #type/permanent #concept/ddd #ddd/anti-corruption-layer #ddd/bounded-context #area/architecture #status/active 
 
 ---
-# 🛡️ Anti-Corruption Layer
+# DDD.Anti-Corruption Layer
 
 > [!abstract] 📋 Чек-лист раскрытия темы
 > 
@@ -270,6 +271,6 @@ graph LR
 ## 🔗 См. также
 
 - [[DDD]] - основные концепции Domain-Driven Design
-- [[DDD/MOC - Bounded Context |Bounded Context]] - контекст, который защищает ACL
-- [[DDD/Context Map|Context Map]] - отображение отношений между контекстами
+- [[MOC - DDD - Bounded Context|Bounded Context]] - контекст, который защищает ACL
+- [[DDD.Context Map|DDD - Context Map]] - отображение отношений между контекстами
 - [[DDD - Integration Patterns]] - паттерны интеграции в DDD

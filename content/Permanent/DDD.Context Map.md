@@ -1,10 +1,11 @@
 ---
-title: 🗺️ Context Map
+title: DDD.Context Map
 aliases:
-  - 🗺️ Context Map
-linter-yaml-title-alias: 🗺️ Context Map
+  - DDD.Context Map
+  - Context Map
+linter-yaml-title-alias: DDD.Context Map
 date created: Friday, September 5th 2025, 6:26:24 am
-date modified: Friday, September 5th 2025, 10:27:36 am
+date modified: Monday, September 8th 2025, 2:30:41 pm
 tags:
   - type
   - type/permanent
@@ -20,7 +21,7 @@ tags:
 #type/permanent #area/architecture #concept/ddd #ddd/context-map #ddd/bounded-context #status/active 
 
 ---
-# 🗺️ Context Map
+# DDD.Context Map
 
 > [!abstract] 📋 Чек-лист изучения
 > 
@@ -145,7 +146,7 @@ graph TD
 
 > [!example] 🛠️ Алгоритм создания
 > 
-> 1. **Идентифицировать контексты** - найти все [[DDD/MOC - Bounded Context|Bounded Contexts]]
+> 1. **Идентифицировать контексты** - найти все [[MOC - DDD - Bounded Context|Bounded Contexts]]
 > 2. **Определить отношения** - выявить как контексты взаимодействуют
 > 3. **Выбрать паттерны** - подобрать подходящие паттерны интеграции
 > 4. **Визуализировать** - создать диаграмму отношений
@@ -216,8 +217,8 @@ graph TD
 ## 🔗 Связанные концепции
 
 - [[DDD]] - основы Domain-Driven Design
-- [[DDD/MOC - Bounded Context|Bounded Context]] - границы контекстов
-- [[DDD - Anti-Corruption Layer]] - детали паттерна ACL
+- [[MOC - DDD - Bounded Context|Bounded Context]] - границы контекстов
+- [[DDD.Anti-CorruptionLayer]] - детали паттерна ACL
 - [[Микросервисная архитектура#concept/microservice]] - применение в микросервисах
 
 ---

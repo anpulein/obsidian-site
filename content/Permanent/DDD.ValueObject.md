@@ -1,10 +1,11 @@
 ---
-title: 🎯 Value Object
+title: DDD.Value Object
 aliases:
-  - 🎯 Value Object
-linter-yaml-title-alias: 🎯 Value Object
+  - DDD.Value Object
+  - Value Object
+linter-yaml-title-alias: DDD.Value Object
 date created: Friday, September 5th 2025, 10:07:51 am
-date modified: Friday, September 5th 2025, 10:19:12 am
+date modified: Tuesday, September 9th 2025, 5:10:16 am
 tags:
   - type/permanent
   - concept/ddd
@@ -20,7 +21,8 @@ tags:
 #type/permanent #concept/ddd #ddd/value-object  #area/architecture #area/development #design-pattern/factory  #concept/immutability 
 
 ---
-# 🎯 Value Object
+
+# DDD.Value Object
 
 > [!abstract] 💡 Краткое описание Value Object (Объект-значение) — неизменяемый объект, который описывается только своими атрибутами, без концептуальной идентичности. Равенство определяется значениями всех свойств.
 
@@ -33,7 +35,7 @@ tags:
 - [ ] Реализация в коде (C#)
 - [ ] Паттерны использования в доменной модели
 - [ ] Валидация и обработка ошибок
-- [ ] Интеграция с [[DDD/Entity|Entity]] и [[DDD/Aggregate|Aggregate]]
+- [ ] Интеграция с [[DDD.Entity|DDD - Entity]] и [[DDD.Aggregate|DDD - Aggregate]]
 
 ---
 
@@ -290,9 +292,9 @@ public record ShoppingCart
 
 ## 🔗 Связанные концепции
 
-- [[DDD/Entity|Entity]] — сущности с идентичностью
-- [[DDD/Aggregate|Aggregate]] — границы консистентности
-- [[DDD - Domain Service|Domain Service]] — доменные операции
+- [[DDD.Entity|DDD - Entity]] — сущности с идентичностью
+- [[DDD.Aggregate|DDD - Aggregate]] — границы консистентности
+- [[DDD.Domain Service|Domain Service]] — доменные операции
 - [[|Immutability]] — неизменяемость объектов
 - [[Factory Pattern]] — создание объектов
 

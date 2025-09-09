@@ -1,10 +1,12 @@
 ---
-title: 🔗  Context Relations
+title: MOC - DDD - Context Relations
 aliases:
-  - 🔗  Context Relations
-linter-yaml-title-alias: 🔗  Context Relations
+  - MOC - DDD - Context Relations
+  - DDD - Context Relations
+  - Context Relations
+linter-yaml-title-alias: MOC - DDD - Context Relations
 date created: Friday, September 5th 2025, 6:38:48 am
-date modified: Friday, September 5th 2025, 10:24:36 am
+date modified: Monday, September 8th 2025, 2:20:51 pm
 tags:
   - type/moc
   - area/architecture
@@ -22,7 +24,7 @@ tags:
 
 ---
 
-# 🔗  Context Relations
+# MOC - DDD - Context Relations
 
 > [!info] 📋 Краткое описание Комплексное руководство по отношениям между Bounded Context'ами в Domain-Driven Design. Рассматривает паттерны интеграции, стратегические подходы к взаимодействию контекстов и практические аспекты реализации.
 
@@ -66,7 +68,7 @@ tags:
 
 ### 📊 Документирование и управление
 
-- [[DDD/Context Map|Context Map]] — создание карты контекстов
+- [[DDD.Context Map|Context Map]] — создание карты контекстов
 - [[DDD Context Relations - Evolution|Эволюция отношений]] — изменение паттернов со временем
 
 ---
@@ -123,9 +125,9 @@ graph TB
 
 ## 🔗 Связанные концепции
 
-- [[DDD/MOC - Bounded Context |Bounded Context]] — основа для Context Relations
-- [[DDD - Ubiquitous Language]] — влияет на выбор паттернов интеграции
-- [[DDD/Event Storming|Event Storming]] — помогает выявить границы контекстов
+- [[MOC - DDD - Bounded Context|Bounded Context]] — основа для Context Relations
+- [[DDD.UbiquitousLanguage]] — влияет на выбор паттернов интеграции
+- [[DDD.EventStorming|Event Storming]] — помогает выявить границы контекстов
 - [[Microservices Architecture]] — практическая реализация Context Relations
 - [[API Gateway Pattern]] — техническая реализация Open Host Service
 

@@ -1,22 +1,27 @@
 ---
-title: MOC - Bounded Context
+title: MOC - DDD - Bounded Context
 aliases:
-  - MOC - Bounded Context
-linter-yaml-title-alias: MOC - Bounded Context
+  - MOC - DDD - Bounded Context
+  - DDD - Bounded Context
+  - Bounded Context
+linter-yaml-title-alias: MOC - DDD - Bounded Context
 date created: Friday, September 5th 2025, 6:20:28 am
-date modified: Friday, September 5th 2025, 10:24:40 am
+date modified: Monday, September 8th 2025, 2:58:32 pm
 tags:
   - type/moc
   - concept/ddd
   - ddd/bounded-context
   - area/architecture
   - area/development
+  - status/active
 ---
 ## 🏷️ Tags
 
-#type/moc #concept/ddd #ddd/bounded-context #area/architecture #area/development 
+#type/moc #concept/ddd #ddd/bounded-context #area/architecture #area/development #status/active 
 
 ---
+
+# MOC - DDD - Bounded Context
 
 > [!info] 📋 О концепции Bounded Context (Ограниченный контекст) — центральная концепция DDD, определяющая границы применимости единой модели предметной области и общего языка команды.
 
@@ -116,7 +121,7 @@ graph TB
 
 > [!info] 📋 Context Map Стратегическая карта, показывающая все Bounded Contexts и отношения между ними.
 > 
-> **Подробнее**: [[DDD/Context Map | Context Map]]
+> **Подробнее**: [[DDD.Context Map| Context Map]]
 
 **Зачем нужна Context Map:**
 
@@ -131,7 +136,7 @@ graph TB
 
 > [!note] 🔗 Основные паттерны отношений
 > 
-> **Подробнее**: [[DDD/MOC - Context Relations | Context Relations]] 
+> **Подробнее**: [[MOC - DDD - Context Relations| Context Relations]] 
 
 ### Partnership 🤝
 
@@ -248,7 +253,7 @@ graph TB
 
 ### 1. **Анализ предметной области** 🔍
 
-- Проведите [[DDD/Event Storming|Event Storming]] 
+- Проведите [[DDD.EventStorming|Event Storming]] 
 - Найдите ключевые бизнес-процессы
 - Выявите разные значения одинаковых терминов
 
@@ -372,18 +377,18 @@ graph TB
 
 ### Следующие шаги для изучения:
 
-- [[DDD/Context Map|Context Map]] — стратегическое планирование
-- [[DDD/MOC - Context Relations |Context Relations]] — типы отношений детально
-- [[DDD - Anti-Corruption Layer]] — защита от внешних систем
+- [[DDD.Context Map|Context Map]] — стратегическое планирование
+- [[MOC - DDD - Context Relations|Context Relations]] — типы отношений детально
+- [[DDD.Anti-CorruptionLayer|Anti-Corruption Layer]] — защита от внешних систем
 - [[DDD - Shared Kernel]] — управление общим кодом
-- [[DDD/Event Storming|Event Storming]] — техника выявления контекстов
-- [[DDD - Ubiquitous Language]] — единый язык команды
+- [[DDD.EventStorming|Event Storming]] — техника выявления контекстов
+- [[DDD.UbiquitousLanguage]] — единый язык команды
 
 ### Паттерны архитектуры:
 
-- [[Микросервисная архитектура]] — реализация через сервисы
+- [[MOC - Microservices|Microservices]] — реализация через сервисы
 - [[API Gateway]] — единая точка входа
-- [[Event-Driven Architecture]] — интеграция через события
+- [[Arch.Event-Driven]] — интеграция через события
 
 ---
 
@@ -401,9 +406,3 @@ graph TB
 > 
 > - Martin Fowler — "BoundedContext"
 > - Context Mapping by Brandolini
-
----
-
-> [!example] 💡 Заметка создана как MOC (Map of Content)
-> 
-> Для полного понимания рекомендуется создать дополнительные детальные заметки по ссылкам выше. Это позволит глубже изучить каждый аспект Bounded Context, не перегружая основную заметку.
